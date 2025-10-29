@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Photo Studio - Services</title>
+    <style>
+        /* --- GLOBAL STYLES --- */
+        body {
+            margin: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            background-image: url('../Desktop/45/pp.jfif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            text-shadow: 1px 1px 4px black;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* --- NAVBAR --- */
+        nav {
+            background: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff512f;
+        }
+
+        /* --- HEADING --- */
+        h1 {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 40px 0 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        /* --- CONTENT CONTAINER --- */
+        .content {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px 40px;
+            max-width: 700px;
+            border-radius: 15px;
+            text-align: left;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #ffbb33;
+            border-bottom: 2px solid #ff512f;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 6px 0;
+            font-size: 16px;
+        }
+
+        /* --- BUTTON STYLE --- */
+        .portfolio-btn {
+            display: block;
+            margin: 30px auto 0;
+            background: linear-gradient(90deg, #ff512f, #dd2476);
+            color: white;
+            border: none;
+            padding: 12px 35px;
+            font-size: 16px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .portfolio-btn:hover {
+            transform: scale(1.08);
+            background: linear-gradient(90deg, #dd2476, #ff512f);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            font-size: 0.9em;
+            color: #ccc;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="1.html" target="_blank">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html" target="_blank">Portfolio</a>
+    </nav>
+
+    <!-- PAGE TITLE -->
+    <h1>Our Services</h1>
+
+    <!-- MAIN CONTENT -->
+    <div class="content">
+        <h2>Working Hours</h2>
+        <p>
+            <strong>Morning:</strong> 10:00 AM – 02:30 PM<br>
+            <strong>Evening:</strong> 06:00 PM – 11:00 PM
+        </p>
+
+        <h2>Indoor Services</h2>
+        <ul>
+            <li>Photo Shoots (Portraits, Family, Model)</li>
+            <li>Urgent Passport Size Photos</li>
+            <li>Custom Photo Frames & Lamination</li>
+            <li>Photo Editing & Retouching</li>
+            <li>Soft Copy to Hard Copy (Phone, Pen Drive, Email)</li>
+            <li>Customized Gift Cups </li>
+        </ul>
+
+        <h2>Outdoor Services</h2>
+        <ul>
+            <li>Birthday Party Photography</li>
+            <li>Engagement & Wedding Shoots</li>
+            <li>School & Corporate Events</li>
+            <li>Outdoor Portraits & Cinematic Shoots</li>
+            <li>Professional Video </li>
+        </ul>
+
+        <!-- BUTTON BACK TO PORTFOLIO -->
+        <a href="portfolio.html" target="_blank" class="portfolio-btn">View Our Portfolio</a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Ashish Photo Studio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
